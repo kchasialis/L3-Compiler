@@ -1,0 +1,14 @@
+
+(def some-random-function
+    (fun (c)
+        (@+ c 1)
+        )
+)
+
+
+; (@byte-write some-random-function)
+; (some-random-function())
+(let ((x 80))
+    (some-random-function 20)
+    (@byte-write 90)
+    )

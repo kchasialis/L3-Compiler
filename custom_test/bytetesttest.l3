@@ -1,0 +1,10 @@
+(let* (
+    (a (@byte-read))
+    (b (@byte-read))
+    (c (@+ a b))
+    (d (@+ c 90))
+
+    )
+
+    (@byte-write d)
+)

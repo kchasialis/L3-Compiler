@@ -1,0 +1,9 @@
+(let ((b (@block-alloc #_- 200000)))
+  (@block-set! b 0 'a')
+  (@byte-write (if (@= (@block-get b 0) 'a') 65 63)))
+
+ (let ((c (@block-alloc #_- 50000)) (d (@block-alloc #_- 170000)))
+  (@block-set! c 0 'a')
+  (@block-set! d 1 'b')
+  (@byte-write (if (@= (@block-get c 0) 'a') 65 63))
+  (@byte-write (if (@= (@block-get d 1) 'b') 66 63)))

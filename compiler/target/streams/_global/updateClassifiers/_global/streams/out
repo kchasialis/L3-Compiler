@@ -1,0 +1,4 @@
+[warn] scala3-library_3-3.3.1-sources.jar no longer exists at /Users/kostasch/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.1/scala3-library_3-3.3.1-sources.jar
+[debug] not up to date. inChanged = false, force = false
+[debug] Updating ProjectRef(uri("file:/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/"), "root")...
+[debug] Done updating ProjectRef(uri("file:/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/"), "root")

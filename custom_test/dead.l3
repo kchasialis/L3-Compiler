@@ -1,0 +1,38 @@
+(def int-eq (fun (a b)
+    (if (= a b)
+        1
+        0
+    )
+))
+
+(def some-random-function
+    (if (int-eq 0 0)
+        1
+        2
+    )
+)
+
+(def some-random-advanced-function (fun (x)
+    (if (int-eq x 0) (1) (2))
+  ))
+
+(def some-other-random-function
+    (
+        (
+            let ((x 1))
+            3
+            )
+        )
+)
+
+(string-print "Dead code elimination test\n")
+(let ((n (int-read)))
+  (string-print "some-random-function: ")
+    (int-print some-random-function)
+    (newline-print)
+    (string-print "some-random-advanced-function: ")
+    (int-print (some-random-advanced-function n))
+    (newline-print)
+    (string-print "some-other-random-function: ")
+    (int-print some-other-random-function)
+  (newline-print))

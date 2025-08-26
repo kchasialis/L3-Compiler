@@ -1,0 +1,103 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/BlockTag.scala:3:37: ';' expected but identifier found.[0m
+[0m[[0m[31merror[0m] [0m[0mimport scala.collection.mutable.Map as MutableMap[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CL3Interpreter.scala:48:44: ':' expected but identifier found.[0m
+[0m[[0m[31merror[0m] [0m[0m  private final def eval(tree: Tree)(using env: Env): Value = tree match {[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CL3Interpreter.scala:142:1: identifier expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m}[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CL3Literal.scala:9:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0menum CL3Literal {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CL3NameAnalyzer.scala:26:40: ':' expected but identifier found.[0m
+[0m[[0m[31merror[0m] [0m[0m  private def error(msg: String)(using pos: Position): Nothing =[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CL3NameAnalyzer.scala:82:1: identifier expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m}[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CL3ToCPSTranslator.scala:3:33: ';' expected but identifier found.[0m
+[0m[[0m[31merror[0m] [0m[0mimport l3.SymbolicCL3TreeModule as S[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CL3ToCPSTranslator.scala:4:29: ';' expected but identifier found.[0m
+[0m[[0m[31merror[0m] [0m[0mimport l3.HighCPSTreeModule as H[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CL3ToCPSTranslator.scala:15:48: ':' expected but identifier found.[0m
+[0m[[0m[31merror[0m] [0m[0m  private def tail(t: S.Tree, c: Symbol)(using Position): H.Tree = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CL3ToCPSTranslator.scala:190:1: identifier expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m}[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CL3Tree.scala:13:19: ')' expected but 'val' found.[0m
+[0m[[0m[31merror[0m] [0m[0m  enum Tree(using val pos: Position) {[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CL3TreeFormatter.scala:34:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mgiven NominalCL3TreeFormatter: Formatter[NominalCL3TreeModule.Tree] =[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CL3TreeFormatter.scala:37:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mgiven SymbolicCL3TreeFormatter: Formatter[SymbolicCL3TreeModule.Tree] =[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CPSInterpreter.scala:16:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  (protected val treeModule: M)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CPSInterpreter.scala:17:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  (using TypeTest[treeModule.Atom, treeModule.Literal],[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CPSInterpreter.scala:19:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  (log: treeModule.Tree => Unit = { (_: treeModule.Tree) => () }) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CPSTree.scala:22:5: '=>' expected but 'case' found.[0m
+[0m[[0m[31merror[0m] [0m[0m    case LetC(cnts: Seq[Cnt], body: Body)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CPSTree.scala:29:14: ';' expected but '.' found.[0m
+[0m[[0m[31merror[0m] [0m[0m  export Tree.*[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CPSTreeChecker.scala:17:12: ':' expected but identifier found.[0m
+[0m[[0m[31merror[0m] [0m[0m    (using TypeTest[treeModule.Atom, treeModule.Name]) {[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CPSTreeChecker.scala:92:41: identifier expected but eof found.[0m
+[0m[[0m[31merror[0m] [0m[0m    with Checker[HighCPSTreeModule.Tree][0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CPSTreeFormatter.scala:49:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mgiven HighCPSTreeFormatter: Formatter[HighCPSTreeModule.Program] =[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/L3Ints.scala:5:10: ';' expected but 'type' found.[0m
+[0m[[0m[31merror[0m] [0m[0m  opaque type L3Int = Int[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/L3Parser.scala:26:11: expected start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m  private inline def IP[T](using Conversion[Int, Position])[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/L3Parser.scala:27:38: identifier expected but '=>' found.[0m
+[0m[[0m[31merror[0m] [0m[0m                          (inline b: => P[Position ?=> T])[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/L3Parser.scala:249:1: ')' expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m}[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/L3Primitive.scala:9:25: traits or objects may not have parameters[0m
+[0m[[0m[31merror[0m] [0m[0msealed trait L3Primitive(val name: String, val arity: Int) {[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/L3Primitive.scala:18:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0menum L3ValuePrimitive(n: String, a: Int) extends L3Primitive(n, a) {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/L3Primitive.scala:46:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0menum L3TestPrimitive(n: String, a: Int) extends L3Primitive(n, a) {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/L3Primitive.scala:60:26: ';' expected but '.' found.[0m
+[0m[[0m[31merror[0m] [0m[0m  export L3ValuePrimitive.*, L3TestPrimitive.*[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/Main.scala:36:36: ':' expected but identifier found.[0m
+[0m[[0m[31merror[0m] [0m[0m  private def treeChecker[T](using c: Checker[T]) =[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/Main.scala:55:1: identifier expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m}[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/package.scala:6:16: ';' expected but '.' found.[0m
+[0m[[0m[31merror[0m] [0m[0m  export L3Ints.L3Int[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/package.scala:13:28: identifier expected but integer literal found.[0m
+[0m[[0m[31merror[0m] [0m[0m  def bitsToIntMSBF(bits: (0 | 1)*): Int =[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/package.scala:43:1: ')' expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m}[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m34 errors found[0m

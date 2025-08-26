@@ -1,0 +1,7 @@
+(let* (
+    (x (@byte-read))
+    (a (@* x 1))
+    )
+
+    (@byte-write a)
+)

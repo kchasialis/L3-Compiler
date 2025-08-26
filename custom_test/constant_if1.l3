@@ -1,0 +1,3 @@
+(let* ((a (@byte-read)))
+(if (@= a a) (@byte-write 80) (@byte-write 70))
+)

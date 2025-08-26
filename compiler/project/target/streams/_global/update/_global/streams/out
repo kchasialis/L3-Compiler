@@ -1,0 +1,4 @@
+[warn] sbt-native-packager_2.12_1.0-1.9.16.jar no longer exists at /Users/kostasch/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/sbt-native-packager_2.12_1.0/1.9.16/sbt-native-packager_2.12_1.0-1.9.16.jar
+[debug] not up to date. inChanged = false, force = false
+[debug] Updating ProjectRef(uri("file:/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/project/"), "compiler-build")...
+[debug] Done updating ProjectRef(uri("file:/Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/project/"), "compiler-build")

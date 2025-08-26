@@ -1,0 +1,78 @@
+Nodes
+=====
+  280,733  LetP
+  269,928  LetC
+  214,417  If
+  130,706  AppF
+   50,544  AppC
+        1  Halt
+        1  LetF
+
+Value primitives
+================
+  228,029  block-get
+   15,242  block-set!
+    7,669  or
+    6,761  block-alloc
+    6,640  shift-right
+    6,235  xor
+    2,609  +
+    2,434  and
+    1,699  -
+    1,641  shift-left
+    1,099  *
+      474  byte-write
+      179  %
+       16  block-length
+        6  byte-read
+
+Test primitives
+===============
+  210,841  =
+    1,916  <=
+    1,660  <
+
+    Functions defined:      28
+Continuations defined: 484,345
+
+Process finished with exit code 0
+
+
+## Best so far
+
+Nodes
+=====
+  280,733  LetP
+  269,928  LetC
+  214,417  If
+  130,706  AppF
+   50,544  AppC
+        1  Halt
+        1  LetF
+
+Value primitives
+================
+  228,029  block-get
+   15,242  block-set!
+    7,669  or
+    6,761  block-alloc
+    6,640  shift-right
+    6,235  xor
+    2,609  +
+    2,434  and
+    1,699  -
+    1,641  shift-left
+    1,099  *
+      474  byte-write
+      179  %
+       16  block-length
+        6  byte-read
+
+Test primitives
+===============
+  210,841  =
+    1,916  <=
+    1,660  <
+
+    Functions defined:      28
+Continuations defined: 484,345

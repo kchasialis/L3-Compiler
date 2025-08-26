@@ -1,0 +1,7 @@
+(let* ((x 43) (y 37))
+    (let (a (@+ x y))(
+    (let (b (@+ x y))(
+
+    (@byte-write a)
+    (@byte-write b)))))
+)

@@ -1,0 +1,20 @@
+;; In Emacs, open this file in -*- Scheme -*- mode
+
+;; Test the @block-get and @block-set! primitives
+
+(@byte-write 68)
+
+(let ((b (@block-alloc #_- 4)))
+  (@block-set! b 0 'a')
+  (@byte-write (if (@= (@block-get b 0) 'a') 65 63)))
+
+
+
+  (let ((c (@block-alloc #_- 9)))
+    (@block-set! c 0 'e')
+    (@byte-write (if (@= (@block-get c 0) 'e') 72 63)))
+
+;; We use @block-alloc 0 to trigger a GC
+(let ((d (@block-alloc 0 0)))
+    (@block-set! d 0 'I')
+    (@byte-write (if (@= (@block-get d 0) 'I') 73 63)))

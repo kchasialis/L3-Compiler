@@ -1,0 +1,63 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(8553d996-bb21-4c82-a2e2-d647ada3c3b3), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/target/scala-3.3.1/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CPSOptimizer.scala:3:22 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m3 |[0m[33mimport[0m l3.CL3Literal.{BooleanLit, IntLit}[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m  |[0m                      ^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m  |[0m                      unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CPSOptimizer.scala:3:34 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m3 |[0m[33mimport[0m l3.CL3Literal.{BooleanLit, IntLit}[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m  |[0m                                  ^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m  |[0m                                  unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CPSOptimizer.scala:4:44 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m4 |[0m[33mimport[0m l3.CPSValuePrimitive.{Add, And, Div, Mul, Or, ShiftLeft, ShiftRight, Sub, XOr}[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m  |[0m                                            ^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m  |[0m                                            unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CPSOptimizer.scala:4:53 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m4 |[0m[33mimport[0m l3.CPSValuePrimitive.{Add, And, Div, Mul, Or, ShiftLeft, ShiftRight, Sub, XOr}[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m  |[0m                                                     ^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m  |[0m                                                     unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CPSOptimizer.scala:4:76 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m4 |[0m[33mimport[0m l3.CPSValuePrimitive.{Add, And, Div, Mul, Or, ShiftLeft, ShiftRight, Sub, XOr}[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m  |[0m                                                                            ^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m  |[0m                                                             unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CPSOptimizer.scala:4:34 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m4 |[0m[33mimport[0m l3.CPSValuePrimitive.{Add, And, Div, Mul, Or, ShiftLeft, ShiftRight, Sub, XOr}[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m  |[0m                                  ^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m  |[0m                                  unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CPSOptimizer.scala:4:29 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m4 |[0m[33mimport[0m l3.CPSValuePrimitive.{Add, And, Div, Mul, Or, ShiftLeft, ShiftRight, Sub, XOr}[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m  |[0m                             ^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m  |[0m                             unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CPSOptimizer.scala:4:64 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m4 |[0m[33mimport[0m l3.CPSValuePrimitive.{Add, And, Div, Mul, Or, ShiftLeft, ShiftRight, Sub, XOr}[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m  |[0m                                                                ^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m  |[0m                                                             unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CPSOptimizer.scala:4:39 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m4 |[0m[33mimport[0m l3.CPSValuePrimitive.{Add, And, Div, Mul, Or, ShiftLeft, ShiftRight, Sub, XOr}[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m  |[0m                                       ^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m  |[0m                                       unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CPSOptimizer.scala:4:81 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m4 |[0m[33mimport[0m l3.CPSValuePrimitive.{Add, And, Div, Mul, Or, ShiftLeft, ShiftRight, Sub, XOr}[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m  |[0m                                                                                 ^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m  |[0m                                                             unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CPSOptimizer.scala:4:49 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m4 |[0m[33mimport[0m l3.CPSValuePrimitive.{Add, And, Div, Mul, Or, ShiftLeft, ShiftRight, Sub, XOr}[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m  |[0m                                                 ^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m  |[0m                                                 unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CPSOptimizer.scala:285:10 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m285 |[0m      [33mval[0m [36mfunLimit[0m = fibonacci(i)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m          ^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m          unused local definition[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CPSOptimizer.scala:286:10 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m286 |[0m      [33mval[0m [36mcntLimit[0m = i[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m          ^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m          unused local definition[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- [E121] Pattern Match Warning: /Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/compiler/src/l3/CPSOptimizer.scala:236:9 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m236 |[0m    [33mcase[0m _ => tree[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m         ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mUnreachable case except for [31mnull[0m (if this is intentional, consider writing [33mcase[0m [31mnull[0m => instead).[0m
+[0m[[0m[33mwarn[0m] [0m[0m14 warnings found[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 5 s, completed May 1, 2024, 6:38:26 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

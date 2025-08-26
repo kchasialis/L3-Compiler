@@ -1,0 +1,137 @@
+1709478290907:test
+1709912674841:compile
+1709912707179:test
+1709912722365:compile
+1709913278459:test
+1709921003799:compile
+1709921009332:test
+1709921189700:compile
+1709921191241:test
+1709921343420:run ../library/lib.l3m ../tests/prim-intp.l3
+1709921455353:compie
+1709921456534:compile
+1709921458255:run ../library/lib.l3m ../tests/prim-intp.l3
+1709921461705:test
+1709986726655:compile
+1709986730781:test
+1709987782761:run ../tests/expr-let.l3
+1709987797049:run ../tests/expr-letrec.l3
+1709988474855:run ../tests/expr-cond.l3
+1710093482194:compile
+1710093486792:test
+1710093506135:run ../tests/expr-cond.l3
+1710093758112:test
+1710093769944:run ../tests/expr-cond.l3
+1710096472212:#run ../tests/expr-cond.l3
+1710096742764:run ../tests/expr-cond.l3
+1710099956101:test
+1710100149699:run ../tests/expr-cond.l3
+1710101329747:test
+1710260937810:run ../examples/test.l3
+1710261412159:[A
+1710261415574:run ../examples/test.l3
+1710261627720:test
+1710261700287:run ../examples/test.l3
+1710261953032:test
+1710262010286:run ../examples/test.l3
+1710323289411:test
+1710323535397:run ../examples/test.l3
+1710362594940:packageSrc
+1710437731173:compile
+1710437740990:test
+1710437781062:packageSrc
+1711148890647:compile
+1711148927167:test
+1711229208194:compile
+1711229278975:test
+1711229282095:compile
+1711229437932:test
+1711232407944:compile
+1711232412469:test
+1711279534700:run /Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/examples/maze.l3
+1711279577806:test /Users/kostasch/Documents/EPFL-Msc/advanced-compiler-construction/project/adv_comp_cons_epfl/l3/examples/maze.l3
+1711279806099:#run ../library/lib.l3m ../tests/prim-intp.l3
+1711279819857:run ../library/lib.l3m ../examples/maze.l3
+1711280217735:compile
+1711280220446:run ../library/lib.l3m ../examples/maze.l3
+1711280230216:test
+1711281262071:run ../library/lib.l3m ../examples/maze.l3
+1711281370752:test
+1711281411471:compile
+1711281412470:test
+1711281518688:test l3.ExamplesTests3.maze
+1711281612260:test ../examples/maze.l3
+1711281630961:#test
+1711281648089:test
+1711282341343:#test
+1711282343349:test
+1711282975621:compile
+1711282988114:test
+1711284504310:τεστ
+1711284506010:test
+1711285019601:τεστ
+1711285021375:test
+1711285534913:[A
+1711285536640:test
+1711316971920:compile
+1711316972872:test
+1711545763093:packageSrc
+1711740174243:compile
+1712162739452:test
+1712164317117:test ../tests/prim-eq.l3
+1712164339309:test ../examples/maze.l3
+1712164352564:run ../library/lib.l3m ../tests/prim-eq.l3
+1712234845346:clear
+1712234849703:run ../library/lib.l3m ../tests/prim-eq.l3
+1712234873901:test
+1712234937497:run ../library/lib.l3m ../tests/expr-letrec.l3
+1712235456481:test ../tests/expr-letrec.l3
+1712235461711:test expr-letrec.l3
+1712235466931:test tests/expr-letrec.l3
+1712235473343:test
+1712235481138:run ../library/lib.l3m ../tests/expr-letrec.l3
+1712240202748:compie
+1712240204033:compile
+1712240255424:run ../library/lib.l3m ../tests/expr-letrec.l3
+1712240265722:test
+1712240485277:run ../library/lib.l3m ../tests/expr-letrec.l3
+1712244636090:test
+1712244755040:run ../library/lib.l3m ../tests/expr-rec.l3
+1712335807520:compile
+1712335812427:test
+1712335846086:run ../library/lib.l3m ../tests/expr-rec.l3
+1712336905117:test
+1712337008028:run ../library/lib.l3m ../tests/expr-rec.l3
+1712337035695:test
+1712337098317:run ../library/lib.l3m ../tests/stmt-defrec.l3
+1712339788496:test
+1712340329443:run ../library/lib.l3m ../tests/stmt-defrec.l3
+1712341717240:test
+1712341877865:run l3.SyntheticTests3.statements.stmt-defrec
+1712341881838:run ../library/lib.l3m ../tests/stmt-defrec.l3
+1712391242250:test
+1712391292932:run ../library/lib.l3m ../tests/expr-letrec.l3
+1712391563066:test
+1712402007158:compile
+1712402161773:test
+1712600222033:run ../library/lib.l3m ../tests/expr-letrec.l3
+1712601290442:test
+1712601393653:run ../library/lib.l3m ../tests/expr-letrec.l3
+1712602265954:test
+1712602275842:run ../library/lib.l3m ../tests/expr-letrec.l3
+1712606322616:run ../library/lib.l3m ../tests/stmt-defrec.l3
+1712606505398:run ../library/lib.l3m ../tests/expr-letrec.l3
+1712613922575:compile
+1712613925760:run ../library/lib.l3m ../tests/expr-letrec.l3
+1712613935316:test
+1712685983086:run ../library/lib.l3m ../tests/expr-letrec.l3
+1712686007009:test
+1713808501655:#un ../library/lib.l3m ../tests/expr-letrec.l3
+1714497459151:test
+1714581501372:compile
+1714581508776:test
+1714591371589:compile
+1714591431719:sbt
+1714591439568:compile
+1714591452253:test
+1714592434066:packageSrc
